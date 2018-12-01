@@ -1,0 +1,11 @@
+[package]
+name = "aoc2018"
+version = "0.1.0"
+authors = ["David Heim <davidrh@live.de>"]
+
+[workspace]
+members = [
+    "day01",
+]
+
+[dependencies]
