@@ -1,13 +1,8 @@
 [package]
-name = "aoc2018"
+name = "day03"
 version = "0.1.0"
 authors = ["David Heim <davidrh@live.de>"]
 
-[workspace]
-members = [
-    "day01",
-    "day02",
-    "day03",
-]
-
 [dependencies]
+aoc2018 = { path = "../" }
+regex = "1"
